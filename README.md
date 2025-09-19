@@ -3,13 +3,13 @@
 This repository contains the code and experiments for analyzing sandbagging behaviors in large language models (LLMs) under different prompting strategies. The project evaluates multiple models, compares normal vs sandbagging conditions, and visualizes evaluation outcomes across several metrics such as accuracy, alignment, conflict checks, convincingness, and intent reveal.
 
 # 📂 Repository Structure
-MASTERS_THESIS/
+MASTERS_THESIS/  
 ├── .env                           # API keys (excluded from git)
 ├── .gitignore                     # Git ignore file
 ├── requirements.txt               # Python dependencies
 ├── run_pipeline.py                 # Main script to run full evaluation pipeline
 │
-├── config/                         # Global configuration
+├── config/                          # Global configuration
 │   ├── constants.py
 │   └── settings.py
 │
