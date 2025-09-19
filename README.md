@@ -3,44 +3,39 @@
 This repository contains the code and experiments for analyzing sandbagging behaviors in large language models (LLMs) under different prompting strategies. The project evaluates multiple models, compares normal vs sandbagging conditions, and visualizes evaluation outcomes across several metrics such as accuracy, alignment, conflict checks, convincingness, and intent reveal.
 
 # 📂 Repository Structure
-MASTERS_THESIS/  
-├── .env             # API keys (excluded from git)   
-├── .gitignore       # Git ignore file  
-├── requirements.txt # Python dependencies  
-├── run_pipeline.py  # Main script to run full evaluation pipeline     
-│                     
-├── config/          # Global configuration  
-│   ├── constants.py     
-│   └── settings.py     
-│                   
-├── extra/           # Extra data and pre-computed CSVs   
-│   ├── mmlu_sample_questions.csv      
-│   ├── mmlu_subject_counts.csv       
-│   ├── normal_conflicts_analysis.csv      
-│   ├── normal_results_complete_conflict_analysis.csv     
-│   ├── reorganized.csv    
-│   └── sandbagging_conflicts_analysis.csv     
-│              
-├── notebooks/        # Reproducibility notebooks    
-│   ├── dataset_analysis.ipynb          
-│   ├── experimental_analysis.ipynb      
-│   └── experimental_analysis_claude.ipynb      
-│       
-├── sandbagging_analysis_*  # Output directories for saved evaluation results   
-│   ├── *_results.csv/.json       
-│   └── *_analysis.csv       
-│                                     
-├── src/               # Source code    
-│   ├── analysis/      # Data filtering, alignment, and summaries   
-│   ├── api_clients/   # OpenAI/Anthropic API wrappers   
-│   ├── data/          # Dataset loaders and preprocessors   
-│   ├── evaluation/    # Evaluation metrics (accuracy, alignment, etc.)   
-│   ├── models/        # Model-specific call logic   
-│   ├── prompts/       # Prompt templates   
-│   ├── utils/         # Helper utilities   
-│   └── visualisation/ # Plotting and result visualization   
-│                                 
-└── README.md          # Project documentation    
+
+| Path/File | Description |
+|-----------|-------------|
+| `.env` | API keys (excluded from git) |
+| `.gitignore` | Git ignore file |
+| `requirements.txt` | Python dependencies |
+| `run_pipeline.py` | Main script to run full evaluation pipeline |
+| `config/` | Global configuration |
+| `config/constants.py` | Configuration constants |
+| `config/settings.py` | Application settings |
+| `extra/` | Extra data and pre-computed CSVs |
+| `extra/mmlu_sample_questions.csv` | MMLU dataset sample questions |
+| `extra/mmlu_subject_counts.csv` | Subject count statistics |
+| `extra/normal_conflicts_analysis.csv` | Normal scenario conflict analysis |
+| `extra/normal_results_complete_conflict_analysis.csv` | Complete normal results analysis |
+| `extra/reorganized.csv` | Reorganized dataset |
+| `extra/sandbagging_conflicts_analysis.csv` | Sandbagging scenario conflicts |
+| `notebooks/` | Reproducibility notebooks |
+| `notebooks/dataset_analysis.ipynb` | Dataset exploration and analysis |
+| `notebooks/experimental_analysis.ipynb` | Experimental results analysis |
+| `notebooks/experimental_analysis_claude.ipynb` | Claude-specific experimental analysis |
+| `sandbagging_analysis_*/` | Output directories for saved evaluation results |
+| `src/` | Source code |
+| `src/analysis/` | Data filtering, alignment, and summaries |
+| `src/api_clients/` | OpenAI/Anthropic API wrappers |
+| `src/data/` | Dataset loaders and preprocessors |
+| `src/evaluation/` | Evaluation metrics (accuracy, alignment, etc.) |
+| `src/models/` | Model-specific call logic |
+| `src/prompts/` | Prompt templates |
+| `src/utils/` | Helper utilities |
+| `src/visualisation/` | Plotting and result visualization |
+| `README.md` | Project documentation |
+    
 
 # 🚀 How to Run
 1. Install dependencies
