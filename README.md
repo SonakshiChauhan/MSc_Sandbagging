@@ -29,7 +29,7 @@ MASTERS_THESIS/
 ├── sandbagging_analysis_*  # Output directories for saved evaluation results   
 │   ├── *_results.csv/.json       
 │   └── *_analysis.csv       
-│                                
+│                                     
 ├── src/               # Source code    
 │   ├── analysis/      # Data filtering, alignment, and summaries   
 │   ├── api_clients/   # OpenAI/Anthropic API wrappers   
