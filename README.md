@@ -4,10 +4,10 @@ This repository contains the code and experiments for analyzing sandbagging beha
 
 # 📂 Repository Structure
 MASTERS_THESIS/  
-├── .env             # API keys (excluded from git)
-├── .gitignore       # Git ignore file
-├── requirements.txt # Python dependencies
-├── run_pipeline.py  # Main script to run full evaluation pipeline
+├── .env             # API keys (excluded from git)   
+├── .gitignore       # Git ignore file  
+├── requirements.txt # Python dependencies  
+├── run_pipeline.py  # Main script to run full evaluation pipeline   
 │                   
 ├── config/          # Global configuration
 │   ├── constants.py  
