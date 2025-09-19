@@ -1,0 +1,20 @@
+question_id,missing_columns
+501,model_answer,does not tell answer due to safety
+544,model_answer,does not tell answer due to safety
+646,model_answer, dnt
+661,model_answer,dnt
+692,model_answer, dnt
+731,model_answer, dnt
+824,model_answer, dnt
+851,model_answer,does not tell answer due to safety
+862,model_answer, dnt
+942,model_answer, dnt 
+944,model_answer, dnt
+969,model_answer, dnt
+1015,model_answer,does not tell answer due to safety
+1128,model_answer, dnt
+1189,model_answer, dnt
+1216,model_answer, dnt
+1395,model_answer, dnt
+1415,model_answer, does not tell answer due to safety
+1476,model_answer, dnt

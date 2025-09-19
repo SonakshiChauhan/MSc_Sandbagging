@@ -1,0 +1,14 @@
+question_id,missing_columns
+251,"reasoning, model_answer"
+544,model_answer, does not tell answer due to safety
+752,model_answer,  does not tell answer due to safety
+787,"reasoning, model_answer"
+839,model_answer, does not tell answer due to safety
+851,model_answer, does not tell answer due to safety
+861,"reasoning, model_answer"
+882,model_answer,does not tell answer due to safety
+931,"reasoning, model_answer"
+941,model_answer, does not tell answer due to safety
+966,"reasoning, model_answer"
+1015,model_answer, does not tell answer due to safety
+1415,model_answer,does not tell answer due to safety
