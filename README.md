@@ -4,43 +4,43 @@ This repository contains the code and experiments for analyzing sandbagging beha
 
 # 📂 Repository Structure
 MASTERS_THESIS/  
-├── .env                           # API keys (excluded from git)
-├── .gitignore                     # Git ignore file
-├── requirements.txt               # Python dependencies
-├── run_pipeline.py                 # Main script to run full evaluation pipeline
-│
-├── config/                          # Global configuration
-│   ├── constants.py
-│   └── settings.py
-│
-├── extra/                          # Extra data and pre-computed CSVs
-│   ├── mmlu_sample_questions.csv
-│   ├── mmlu_subject_counts.csv
-│   ├── normal_conflicts_analysis.csv
-│   ├── normal_results_complete_conflict_analysis.csv
-│   ├── reorganized.csv
-│   └── sandbagging_conflicts_analysis.csv
-│
-├── notebooks/                      # Reproducibility notebooks
-│   ├── dataset_analysis.ipynb
-│   ├── experimental_analysis.ipynb
-│   └── experimental_analysis_claude.ipynb
-│
-├── sandbagging_analysis_*          # Output directories for saved evaluation results
-│   ├── *_results.csv/.json
-│   └── *_analysis.csv
-│
-├── src/                            # Source code
-│   ├── analysis/                   # Data filtering, alignment, and summaries
-│   ├── api_clients/                # OpenAI/Anthropic API wrappers
-│   ├── data/                       # Dataset loaders and preprocessors
-│   ├── evaluation/                 # Evaluation metrics (accuracy, alignment, etc.)
-│   ├── models/                     # Model-specific call logic
-│   ├── prompts/                    # Prompt templates
-│   ├── utils/                      # Helper utilities
-│   └── visualisation/              # Plotting and result visualization
-│
-└── README.md                       # Project documentation
+├── .env             # API keys (excluded from git)
+├── .gitignore       # Git ignore file
+├── requirements.txt # Python dependencies
+├── run_pipeline.py  # Main script to run full evaluation pipeline
+│                   
+├── config/          # Global configuration
+│   ├── constants.py  
+│   └── settings.py  
+│              
+├── extra/           # Extra data and pre-computed CSVs
+│   ├── mmlu_sample_questions.csv   
+│   ├── mmlu_subject_counts.csv   
+│   ├── normal_conflicts_analysis.csv   
+│   ├── normal_results_complete_conflict_analysis.csv  
+│   ├── reorganized.csv  
+│   └── sandbagging_conflicts_analysis.csv  
+│              
+├── notebooks/        # Reproducibility notebooks
+│   ├── dataset_analysis.ipynb      
+│   ├── experimental_analysis.ipynb   
+│   └── experimental_analysis_claude.ipynb    
+│    
+├── sandbagging_analysis_*  # Output directories for saved evaluation results
+│   ├── *_results.csv/.json    
+│   └── *_analysis.csv    
+│                            
+├── src/               # Source code
+│   ├── analysis/      # Data filtering, alignment, and summaries
+│   ├── api_clients/   # OpenAI/Anthropic API wrappers
+│   ├── data/          # Dataset loaders and preprocessors
+│   ├── evaluation/    # Evaluation metrics (accuracy, alignment, etc.)
+│   ├── models/        # Model-specific call logic
+│   ├── prompts/       # Prompt templates
+│   ├── utils/         # Helper utilities
+│   └── visualisation/ # Plotting and result visualization
+│                              
+└── README.md          # Project documentation
 
 # 🚀 How to Run
 1. Install dependencies
