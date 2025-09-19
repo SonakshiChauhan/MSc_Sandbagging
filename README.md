@@ -7,19 +7,19 @@ MASTERS_THESIS/
 ├── .env             # API keys (excluded from git)   
 ├── .gitignore       # Git ignore file  
 ├── requirements.txt # Python dependencies  
-├── run_pipeline.py  # Main script to run full evaluation pipeline   
+├── run_pipeline.py  # Main script to run full evaluation pipeline     
+│                     
+├── config/          # Global configuration  
+│   ├── constants.py     
+│   └── settings.py     
 │                   
-├── config/          # Global configuration
-│   ├── constants.py  
-│   └── settings.py  
-│              
-├── extra/           # Extra data and pre-computed CSVs
-│   ├── mmlu_sample_questions.csv   
-│   ├── mmlu_subject_counts.csv   
-│   ├── normal_conflicts_analysis.csv   
-│   ├── normal_results_complete_conflict_analysis.csv  
-│   ├── reorganized.csv  
-│   └── sandbagging_conflicts_analysis.csv  
+├── extra/           # Extra data and pre-computed CSVs   
+│   ├── mmlu_sample_questions.csv      
+│   ├── mmlu_subject_counts.csv       
+│   ├── normal_conflicts_analysis.csv      
+│   ├── normal_results_complete_conflict_analysis.csv     
+│   ├── reorganized.csv    
+│   └── sandbagging_conflicts_analysis.csv     
 │              
 ├── notebooks/        # Reproducibility notebooks
 │   ├── dataset_analysis.ipynb      
